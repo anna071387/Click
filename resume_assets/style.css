@@ -16,6 +16,7 @@ body {
     color: #ffffff;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 .headertop {
     padding-left: 25px;
@@ -34,9 +35,11 @@ body {
     color: #7efa03;
 }
 .skills {
+    text-align: left;
+}
+.skills2 {
     text-align: center;
 }
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -100,7 +103,7 @@ p {
 }
 
 .Website-design {
-    margin-bottom: 32px;
+    margin-bottom: 940px;
     color: #ffffff;
 }
 
@@ -131,9 +134,10 @@ p {
 }
 
 .Website-design img {
-    position: relative;
-    margin: 10px auto;
+    
+    margin: 11px auto;
     max-width: 150px;
+    
 }
 
 .Interests img {
@@ -145,15 +149,20 @@ p {
 .Main {
    margin-top: 7%;
     float: left;
-    margin-left: 25px;
+    margin-left: 55px;
+    margin-bottom: 2%;
+    position: relative;
 }
-.Face-outline {
+.Skills-outline {
     top: 96px;
+    height: 2000px;
     text-align: left;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fa8f03;
     position: sticky;
+    position: relative;
+    z-index: 2;
     
     
 }
@@ -185,6 +194,12 @@ p {
 
 .Parent img {
     max-height: 300px;
+  
+}
+img:hover {
+    padding-left: 30px;
+    /* transition: padding-left 0.5s; */
+
 }
 
 
@@ -201,6 +216,8 @@ p {
     text-align: center;
     color: #ffffff;
     background-color: #722a7c;
+    z-index: 3;
+    position: relative;
 }
 
 .footer h2 {
