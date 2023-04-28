@@ -14,9 +14,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #722a7c;
     color: #ffffff;
-    position: fixed;
     width: 100%;
     z-index: 3;
+    position: sticky;
+    top: 0;
 }
 .headertop {
     padding-left: 25px;
@@ -39,6 +40,8 @@ body {
 }
 .skills2 {
     text-align: center;
+    margin-top: 30px;
+    
 }
 .header div {
     padding-top: 15px;
@@ -135,10 +138,12 @@ p {
 
 .Website-design img {
     
-    margin: 11px auto;
+    margin: 50px;
     max-width: 150px;
     
 }
+
+
 
 .Interests img {
     display: block;
@@ -147,24 +152,31 @@ p {
 }
 
 .Main {
-   margin-top: 7%;
-    float: left;
+   margin-top: 2%;
     margin-left: 55px;
     margin-bottom: 2%;
     position: relative;
 }
-.Skills-outline {
-    top: 96px;
-    height: 2000px;
+
+.Main div {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
+
+
+.Skills-outline2 {
+    
+    height: 802px;
     text-align: left;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fa8f03;
-    position: sticky;
-    position: relative;
     z-index: 2;
-    
-    
+    position: relative;
 }
 
 .Parent {
@@ -180,8 +192,7 @@ p {
 }
 
 .Bullets {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 20px;
     list-style-type: square;
 
 }
@@ -207,7 +218,6 @@ img:hover {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 .footer {
     padding: 30px;
