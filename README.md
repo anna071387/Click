@@ -1,8 +1,16 @@
 # Click
+
+* When I published to git hub some things have not transfered
+
+![alt text] (./resume_assets/images/Image WIth Orange.jpg)
+
 * As a hiring person, I want to view the resume in the 
 online browser with the provided url link.
 
+
 ## Acceptance Criteria
+
+
 
 * It is done when the after clicking the index.html web browser opens with the correct url link.
 
