@@ -35,6 +35,17 @@ body {
 .header h1 .seo {
     color: #7efa03;
 }
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    height: 700px;
+    background-color: #fa8f03;
+    gap: 50px
+
+}
 .skills {
     text-align: left;
 }
