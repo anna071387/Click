@@ -2,7 +2,7 @@
 
 * When I published to git hub some things have not transfered
 
-![alt text] (./resume_assets/images/Image WIth Orange.jpg)
+![alt text](./resume_assets/images/ImageWIthOrange.jpg)
 
 * As a hiring person, I want to view the resume in the 
 online browser with the provided url link.

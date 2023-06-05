@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 /* Background of the webpage*/
 body {
     background-color: #cff5aa7c;
@@ -143,6 +143,11 @@ p {
     
 }
 
+.portfolioLink img {
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+}
 
 
 .Interests img {
